@@ -12,7 +12,7 @@ function BoardMember(name, homeState, training) {
     return('I like to help people.');
   }
   this.releasePressStatement = function() {
-    return('You will do great things from Scuber.');
+    return('You will see great things from Scuber.');
   }
   this.sayHi = function() {
     return(`Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trainined in ${this.training}.`);
